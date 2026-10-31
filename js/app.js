@@ -34,22 +34,22 @@
 
 //Recommended
 //let customer = {
- //   name: "John Doe",
-  //  age: 30,
- //   isMarried: false
+//   name: "John Doe",
+//  age: 30,
+//   isMarried: false
 //};
 //console.log(customer.name);
 //console.log(customer.age);
 
 
 //class Customer {
- //   name;
-  //  age;
- //   isStudent;
- //   constructor(name, age, isStudent) {
- //       this.name = name;
- //       this.age = age;
- //       this.isStudent = isStudent;
+//   name;
+//  age;
+//   isStudent;
+//   constructor(name, age, isStudent) {
+//       this.name = name;
+//       this.age = age;
+//       this.isStudent = isStudent;
 //    }
 
 //}
@@ -63,50 +63,62 @@
 
 //inside  array define objects
 //let student = [
-   // {
-   //     name: "kamal",
-   //     age: 25,
-   //     isStudent: false,
-   //     marks : [
-    //        {
-    //            subject: "Maths",
-   //             mark: 80
-   //         },
-   //         {
-    //            subject: "Science",
-   //             mark: 90
-   //        }
-   //     ]
-   // },
-   // {
-   //     name: "nimal",
-   //     age: 30,
-   //     isStudent: true
-   // },
-  //  {
-   //     name: "sunil",
-   //     age: 35,
-   //     isStudent: false         
-    //}
+// {
+//     name: "kamal",
+//     age: 25,
+//     isStudent: false,
+//     marks : [
+//        {
+//            subject: "Maths",
+//             mark: 80
+//         },
+//         {
+//            subject: "Science",
+//             mark: 90
+//        }
+//     ]
+// },
+// {
+//     name: "nimal",
+//     age: 30,
+//     isStudent: true
+// },
+//  {
+//     name: "sunil",
+//     age: 35,
+//     isStudent: false         
+//}
 //]
 
 
- //console.log(student);
- //console.log(student[1].age);
- //console.log(student[0].marks);
+//console.log(student);
+//console.log(student[1].age);
+//console.log(student[0].marks);
 
 
 
- //+|-|*|/|%
+//+|-|*|/|%
 
 
 
- //let a = 10;
- //a++;
+//let a = 10;
+//a++;
 
- //console.log(a);
+//console.log(a);
 
- //let b = 3;
+//let b = 3;
 
- //let sum = a + b;
- //console.log(sum);
+//let sum = a + b;
+//console.log(sum);
+
+
+--------Comparison operators-----------------
+
+== | === | != | !== | > | < | >= | <=
+
+    let x = 10;
+    let y = 10;
+
+console.log(x == y);
+
+
