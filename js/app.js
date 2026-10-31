@@ -187,36 +187,55 @@ if(mark >= 90){
 // }
 
 // --------- while loops ------------------
-let i = 0;
-while(i<5){
-    console.log(i);
-    i++;
-}
-console.log("--------------------------------------------------");
+//let i = 0;
+//while(i<5){
+//    console.log(i);
+//    i++;
+//}
+//console.log("--------------------------------------------------");
 
-let k = 1;
-while(k<5){
-    console.log(k);
-    k++;
-}
+//let k = 1;
+//while(k<5){
+//    console.log(k);
+//    k++;
+//}
 
-console.log("--------------------------------------------------");
+//console.log("--------------------------------------------------");
 
 
 //do while loop
 
-let j = 0;
-do{
-    console.log(j);
+//let j = 0;
+//do{
+  //  console.log(j);
     j++;
-} while(j<5);
+//} while(j<5);
 
-console.log("------------------------------------------------------");
+//console.log("------------------------------------------------------");
 
 
-let p = 10;
-do{
-    console.log(p);
-    p++;
-} while(p<5);
+//let p = 10;
+//do{
+//    console.log(p);
+//    p++;
+//} while(p<5);
 
+//-----------------functions----------------------
+
+// normal function - method 01
+function myFunction(){
+    console.log("hello world"); 
+}
+myFunction();
+
+// function with parameters - method 02
+function getSum(num1, num2){
+    return num1 + num2;
+}
+console.log(getSum(5,10));
+
+//function with variable - method 03
+let sum = function(num1, num2){
+    return num1 + num2;
+}
+console.log(sum(5,5));
