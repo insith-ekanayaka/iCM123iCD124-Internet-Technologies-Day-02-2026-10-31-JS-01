@@ -112,13 +112,22 @@
 //console.log(sum);
 
 
---------Comparison operators-----------------
+ // -------- Comparison operators -----------------
+// == | === | != | !== | > | < | >= | <=
 
-== | === | != | !== | > | < | >= | <=
+let x = 10;
+let y = "10";
 
-    let x = 10;
-    let y = 10;
+console.log(x === y);
 
-console.log(x == y);
 
+// -------- Logical operators -----------------
+// && | || | !  
+
+if (false || false){
+    console.log("working");
+
+} else {
+    console.log("not working");
+}   
 
