@@ -33,64 +33,80 @@
 //let person = {};
 
 //Recommended
-let customer = {
-    name: "John Doe",
-    age: 30,
-    isMarried: false
-};
-console.log(customer.name);
-console.log(customer.age);
+//let customer = {
+ //   name: "John Doe",
+  //  age: 30,
+ //   isMarried: false
+//};
+//console.log(customer.name);
+//console.log(customer.age);
 
 
-class Customer {
-    name;
-    age;
-    isStudent;
-    constructor(name, age, isStudent) {
-        this.name = name;
-        this.age = age;
-        this.isStudent = isStudent;
-    }
+//class Customer {
+ //   name;
+  //  age;
+ //   isStudent;
+ //   constructor(name, age, isStudent) {
+ //       this.name = name;
+ //       this.age = age;
+ //       this.isStudent = isStudent;
+//    }
 
-}
-let customer1 = new Customer("John Doe", 20, true);
-console.log(customer1);
+//}
+//et customer1 = new Customer("John Doe", 20, true);
+//console.log(customer1);
 
-let customer2 = new Customer("Jane Smith", 25, false);
-console.log(customer2);
+//let customer2 = new Customer("Jane Smith", 25, false);
+//console.log(customer2);
 
 
 
 //inside  array define objects
-et student = [
-    {
-        name: "kamal",
-        age: 25,
-        isStudent: false,
-        marks : [
-            {
-                subject: "Maths",
-                mark: 80
-            },
-            {
-                subject: "Science",
-                mark: 90
-            }
-        ]
-    },
-    {
-        name: "nimal",
-        age: 30,
-        isStudent: true
-    },
-    {
-        name: "sunil",
-        age: 35,
-        isStudent: false         
-    }
-]
+//let student = [
+   // {
+   //     name: "kamal",
+   //     age: 25,
+   //     isStudent: false,
+   //     marks : [
+    //        {
+    //            subject: "Maths",
+   //             mark: 80
+   //         },
+   //         {
+    //            subject: "Science",
+   //             mark: 90
+   //        }
+   //     ]
+   // },
+   // {
+   //     name: "nimal",
+   //     age: 30,
+   //     isStudent: true
+   // },
+  //  {
+   //     name: "sunil",
+   //     age: 35,
+   //     isStudent: false         
+    //}
+//]
 
 
- console.log(student);
- console.log(student[1].age);
- console.log(student[0].marks);
+ //console.log(student);
+ //console.log(student[1].age);
+ //console.log(student[0].marks);
+
+
+
+ //+|-|*|/|%
+
+
+
+ //let a = 10;
+ //a++;
+
+ //console.log(a);
+
+ //let b = 3;
+
+ //let sum = a + b;
+ //console.log(sum);
