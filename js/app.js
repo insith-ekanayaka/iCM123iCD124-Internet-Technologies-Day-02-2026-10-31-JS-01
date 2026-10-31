@@ -131,3 +131,22 @@ if (false || false){
     console.log("not working");
 }   
 
+if(x>y){
+    console.log("x is greater than y");
+}else {
+    console.log("x is not greater than y");
+}
+
+mark = 75;
+if(mark >= 90){
+    console.log("A+");
+}else if(mark >= 75){
+    console.log("B");
+
+}else if(mark >= 65){
+    console.log("C");
+}else if(mark >= 50){
+    console.log("D");
+}else {
+    console.log("F");
+}
