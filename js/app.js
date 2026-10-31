@@ -239,3 +239,24 @@ let sum = function(num1, num2){
     return num1 + num2;
 }
 console.log(sum(5,5));
+
+//arrow function - method 04
+let pluSum = (num1, num2) => {
+    return num1 + num2;
+}
+console.log(pluSum(12,12));
+
+
+let plusSum = (num1, num2) => num1 + num2;
+
+
+let sample = txtValue =>{
+    return txtValue;
+}
+
+console.log(sample("Hii saman"));
+
+let sample1 = txtValue => txtValue;
+
+console.log(sample1("Hii kamal"));
+
