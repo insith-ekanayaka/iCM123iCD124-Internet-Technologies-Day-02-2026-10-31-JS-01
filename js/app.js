@@ -260,3 +260,4 @@ let sample1 = txtValue => txtValue;
 
 console.log(sample1("Hii kamal"));
 
+-----------------DOM Manipulation - document object model----------------------
