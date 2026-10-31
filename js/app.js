@@ -8,15 +8,15 @@
 
 
 //{
-   // let city = "New York"; 
-   // console.log(city);
+// let city = "New York"; 
+// console.log(city);
 
 //}
 
 //console.log(city);
 
 //{
-   // var bike = "Yamaha";
+// var bike = "Yamaha";
 
 //}
 
@@ -32,23 +32,65 @@
 //let customer = ["sarah", "john", "mike"]; ;
 //let person = {};
 
-//console.log(typeof nam);
-//console.log(customer);
+//Recommended
+let customer = {
+    name: "John Doe",
+    age: 30,
+    isMarried: false
+};
+console.log(customer.name);
+console.log(customer.age);
 
 
 class Customer {
-           name;
-            age;
-            isStudent;
-            constructor(name, age, isStudent) {
-                this.name = name;
-                this.age = age;
-                this.isStudent = isStudent;
-            }
+    name;
+    age;
+    isStudent;
+    constructor(name, age, isStudent) {
+        this.name = name;
+        this.age = age;
+        this.isStudent = isStudent;
+    }
 
-        }
-let customer1 = new Customer("John Doe", 20, true); 
+}
+let customer1 = new Customer("John Doe", 20, true);
 console.log(customer1);
 
 let customer2 = new Customer("Jane Smith", 25, false);
 console.log(customer2);
+
+
+
+//inside  array define objects
+et student = [
+    {
+        name: "kamal",
+        age: 25,
+        isStudent: false,
+        marks : [
+            {
+                subject: "Maths",
+                mark: 80
+            },
+            {
+                subject: "Science",
+                mark: 90
+            }
+        ]
+    },
+    {
+        name: "nimal",
+        age: 30,
+        isStudent: true
+    },
+    {
+        name: "sunil",
+        age: 35,
+        isStudent: false         
+    }
+]
+
+
+ console.log(student);
+ console.log(student[1].age);
+ console.log(student[0].marks);
