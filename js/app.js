@@ -150,3 +150,73 @@ if(mark >= 90){
 }else {
     console.log("F");
 }
+
+
+
+ ----- Switch case statement ---------
+
+// let day = 1;
+
+// switch(day){
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     case 4:
+//         console.log("Thursday");
+//         break;
+//     case 5:
+//         console.log("Friday");
+//         break;
+//     case 6:
+//         console.log("Saturday");
+//         break;
+//     default:
+//         console.log("Invalid day");
+
+// }
+
+// // --------- for loops ------------------
+// for(let i=0; i<5; i++){
+//     console.log(i);
+// }
+
+// --------- while loops ------------------
+let i = 0;
+while(i<5){
+    console.log(i);
+    i++;
+}
+console.log("--------------------------------------------------");
+
+let k = 1;
+while(k<5){
+    console.log(k);
+    k++;
+}
+
+console.log("--------------------------------------------------");
+
+
+//do while loop
+
+let j = 0;
+do{
+    console.log(j);
+    j++;
+} while(j<5);
+
+console.log("------------------------------------------------------");
+
+
+let p = 10;
+do{
+    console.log(p);
+    p++;
+} while(p<5);
+
